@@ -1,0 +1,14 @@
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task one\bin\Debug\Task one.exe.config
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task one\bin\Debug\Task one.exe
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task one\bin\Debug\Task one.pdb
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task one\obj\Debug\Task one.csproj.AssemblyReference.cache
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task one\obj\Debug\Task one.csproj.CoreCompileInputs.cache
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task one\obj\Debug\Task one.exe
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task one\obj\Debug\Task one.pdb
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task one\bin\Debug\Task one.exe.config
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task one\bin\Debug\Task one.exe
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task one\bin\Debug\Task one.pdb
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task one\obj\Debug\Task one.csproj.AssemblyReference.cache
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task one\obj\Debug\Task one.csproj.CoreCompileInputs.cache
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task one\obj\Debug\Task one.exe
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task one\obj\Debug\Task one.pdb

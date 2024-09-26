@@ -1,0 +1,14 @@
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task three\bin\Debug\Task three.exe.config
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task three\bin\Debug\Task three.exe
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task three\bin\Debug\Task three.pdb
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task three\obj\Debug\Task three.csproj.AssemblyReference.cache
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task three\obj\Debug\Task three.csproj.CoreCompileInputs.cache
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task three\obj\Debug\Task three.exe
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Program\Task three\obj\Debug\Task three.pdb
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task three\bin\Debug\Task three.exe.config
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task three\bin\Debug\Task three.exe
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task three\bin\Debug\Task three.pdb
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task three\obj\Debug\Task three.csproj.AssemblyReference.cache
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task three\obj\Debug\Task three.csproj.CoreCompileInputs.cache
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task three\obj\Debug\Task three.exe
+C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task three\obj\Debug\Task three.pdb

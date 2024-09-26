@@ -1,0 +1,7 @@
+C:\Users\Exateym\Desktop\SetCalculator\bin\Debug\SetCalculator.exe.config
+C:\Users\Exateym\Desktop\SetCalculator\bin\Debug\SetCalculator.exe
+C:\Users\Exateym\Desktop\SetCalculator\bin\Debug\SetCalculator.pdb
+C:\Users\Exateym\Desktop\SetCalculator\obj\Debug\SetCalculator.csproj.AssemblyReference.cache
+C:\Users\Exateym\Desktop\SetCalculator\obj\Debug\SetCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Exateym\Desktop\SetCalculator\obj\Debug\SetCalculator.exe
+C:\Users\Exateym\Desktop\SetCalculator\obj\Debug\SetCalculator.pdb
