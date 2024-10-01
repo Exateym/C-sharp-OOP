@@ -272,8 +272,34 @@ namespace SetCalculator
                 columns.Add(newColumn);
             }
         }
-        void printBelongingTable()
+        string CompleteString(string str, int simbolsAmount)
         {
+            int len = str.Length;
+            if (len < simbolsAmount)
+            {
+
+            }
+            return str;
+        }
+        void PrintBelongingTable()
+        {
+            List<String> strings = new List<string>();
+            strings.Add("Все элементы");
+            strings.Add("True");
+            strings.Add("False");
+            for (int index = 0; index < universum.Elements.Count; ++index)
+            {
+                strings.Add(universum.Elements[index]);
+            }
+            int maximalLength = 0;
+            for (int index = 0; index < strings.Count; ++index)
+            {
+                int currentLength = strings[index].Length;
+                if (currentLength > maximalLength)
+                {
+                    maximalLength = currentLength;
+                }
+            }
             Console.Write("Все элементы\t");
             for (int index = 0; index < universum.Elements.Count; ++index)
             {
@@ -367,7 +393,7 @@ namespace SetCalculator
                                 program.SortCustomSets();
                                 program.CalculateUniversum();
                                 program.CreateColumns();
-                                program.printBelongingTable();
+                                program.PrintBelongingTable();
                             }
                             break;
                         default:

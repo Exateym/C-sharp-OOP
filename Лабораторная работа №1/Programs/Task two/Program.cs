@@ -43,13 +43,19 @@ namespace Task_two
                 return;
             }
 
+            Console.WriteLine("\nВыполнения условий:");
             bool conditionOne = y <= 0;
+            Console.WriteLine($"1. y <= 0 = {conditionOne}");
             bool conditionTwo = y >= -2;
+            Console.WriteLine($"2. y >= -2 = {conditionTwo}");
             bool conditionThree = x >= -7;
+            Console.WriteLine($"3. x >= -7 = {conditionThree}");
             bool conditionFour = x <= 0;
-            bool isBelong = conditionOne && conditionTwo && conditionThree && conditionFour;
+            Console.WriteLine($"4. x <= 0 = {conditionFour}");
 
+            bool isBelong = conditionOne && conditionTwo && conditionThree && conditionFour;
             Console.WriteLine($"\nОтвет: {isBelong}");
+            
             Console.WriteLine(messageCloseConsole);
             Console.ReadKey();
         }
