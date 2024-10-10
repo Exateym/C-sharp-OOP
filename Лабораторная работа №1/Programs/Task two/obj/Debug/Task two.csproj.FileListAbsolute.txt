@@ -12,3 +12,10 @@ C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\
 C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task two\obj\Debug\Task two.csproj.CoreCompileInputs.cache
 C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task two\obj\Debug\Task two.exe
 C:\Users\Exateym\Desktop\C# programs\Лабораторная работа №1\Programs\Task two\obj\Debug\Task two.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №1\Programs\Task two\bin\Debug\Task two.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №1\Programs\Task two\bin\Debug\Task two.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №1\Programs\Task two\bin\Debug\Task two.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №1\Programs\Task two\obj\Debug\Task two.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №1\Programs\Task two\obj\Debug\Task two.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №1\Programs\Task two\obj\Debug\Task two.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №1\Programs\Task two\obj\Debug\Task two.pdb

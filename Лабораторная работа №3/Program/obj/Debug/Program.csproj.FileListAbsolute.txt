@@ -1,0 +1,14 @@
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №2\Program\bin\Debug\Program.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №2\Program\bin\Debug\Program.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №2\Program\bin\Debug\Program.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №2\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №2\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №2\Program\obj\Debug\Program.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №2\Program\obj\Debug\Program.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №3\Program\bin\Debug\Program.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №3\Program\bin\Debug\Program.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №3\Program\bin\Debug\Program.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №3\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №3\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №3\Program\obj\Debug\Program.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №3\Program\obj\Debug\Program.pdb

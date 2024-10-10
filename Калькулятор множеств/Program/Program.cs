@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.Remoting.Messaging;
@@ -30,6 +31,11 @@ namespace SetCalculator
             {
                 DeleteDuplicates();
             }
+        }
+        public StringSet(StringSet reference)
+        {
+            Name = reference.Name;
+            Elements = new List<string>(reference.Elements);
         }
         public void DeleteDuplicates()
         {
@@ -217,7 +223,8 @@ namespace SetCalculator
                 Console.WriteLine($"{number}. {elements[number - 1]}");
             }
         }
-        void PrintSetContentFromCustoms()
+        // Функция теперь возвращает значение, чтобы её можно было внедрить в другие места
+        StringSet PrintSetContentFromCustoms()
         {
             Console.Write("\nВведите номер множества из списка: ");
             int number;
@@ -225,17 +232,18 @@ namespace SetCalculator
             if (!isSuitableValue)
             {
                 Console.WriteLine("Входные данные не могут быть преобразованы в ожидаемый тип!");
-                return;
+                return null;
             }
             int index = number - 1;
             if (index < 0 || index > manuallyMadeStringSets.Count - 1)
             {
                 Console.WriteLine("В списке отсутствует набор под указанным номером!");
-                return;
+                return null;
             }
             StringSet stringSet = manuallyMadeStringSets[index];
             Console.Write('\n');
             PrintSetContent(stringSet);
+            return stringSet;
         }
         void SortCustomSets()
         {
@@ -277,14 +285,31 @@ namespace SetCalculator
             int len = str.Length;
             if (len < simbolsAmount)
             {
-
+                int difference = simbolsAmount - len;
+                // Добавление недостающих пробелов справа и слева
+                while (difference > 0)
+                {
+                    if (difference % 2 == 1)
+                    {
+                        str = ' ' + str;
+                    }
+                    else
+                    {
+                        str += ' ';
+                    }
+                    difference--;
+                }
             }
             return str;
         }
         void PrintBelongingTable()
         {
+            /* Поиск наибольшей длины строки. Сначала все строки, которые будут выведены в таблицу,
+            записываются в strings (экземпляр класса List). Затем происходит поиск наибольшей длины среди них */
             List<String> strings = new List<string>();
             strings.Add("Все элементы");
+            strings.Add("Универсальное множество");
+            strings.Add("Пустое элементы");
             strings.Add("True");
             strings.Add("False");
             for (int index = 0; index < universum.Elements.Count; ++index)
@@ -300,30 +325,70 @@ namespace SetCalculator
                     maximalLength = currentLength;
                 }
             }
-            Console.Write("Все элементы\t");
+
+            // Вывод таблицы в консоль
+
+            // Вывод названий всех элементов из универсума
+            Console.Write(CompleteString("Все элементы", maximalLength));
+            Console.Write(' ');
             for (int index = 0; index < universum.Elements.Count; ++index)
             {
-                Console.Write($"{universum.Elements[index]}");
+                Console.Write(CompleteString(universum.Elements[index].ToString(), maximalLength));
                 if (index + 1 != universum.Elements.Count)
                 {
-                    Console.Write('\t');
+                    Console.Write(' ');
                 }
             }
             Console.Write('\n');
+
+            // Вывод столбцов, которые показывают принадлежность элементов универсума множествам
             for (int number = 1; number <= columns.Count; ++number)
             {
                 BelongingColumn currentColumn = columns[number - 1];
-                Console.Write($"{currentColumn.Name}\t");
+                Console.Write(CompleteString(currentColumn.Name, maximalLength));
                 for (int index = 0; index < currentColumn.Elements.Count; ++index)
                 {
-                    Console.Write($"{currentColumn.Elements[index]}");
+                    Console.Write(CompleteString(currentColumn.Elements[index].ToString(), maximalLength));
                     if (index + 1 != currentColumn.Elements.Count)
                     {
-                        Console.Write('\t');
+                        Console.Write(' ');
                     }
                 }
                 Console.Write('\n');
             }
+        }
+        BelongingColumn FindColumnByName(string name)
+        {
+            BelongingColumn column = null;
+            int amount = columns.Count;
+            bool wasFound = false;
+            for (int index = 0; index < amount && !wasFound; ++index)
+            {
+                if (columns[index].Name == name)
+                {
+                    column = columns[index];
+                    wasFound = true;
+                }
+            }
+            return column;
+        }
+        void Amalgamation(BelongingColumn firstCollumn, BelongingColumn secondColumn, string newStringSetName)
+        {
+            List<bool> values = new List<bool>();
+            for (int index = 0; index < universum.Elements.Count; index++)
+            {
+                values.Add(firstCollumn.Elements[index] || secondColumn.Elements[index]);
+            }
+            List<string> elementNames = new List<string>();
+            for (int index = 0; index < universum.Elements.Count; index++)
+            {
+                if (values[index])
+                {
+                    elementNames.Add(universum.Elements[index]);
+                }
+            }
+            StringSet newSet = new StringSet(newStringSetName, elementNames);
+            manuallyMadeStringSets.Add(newSet);
         }
         static void Main(string[] args)
         {
@@ -342,6 +407,7 @@ namespace SetCalculator
                 Console.WriteLine("4. Узнать содержимое пользовательского набора.");
                 Console.WriteLine("5. Показать универсальное множество.");
                 Console.WriteLine("6. Визуализировать таблицу принадлежности элементов множествам.");
+                Console.WriteLine("7. Произвести операцию объединения множеств.");
                 Console.Write("Введите номер опции работы с программой: ");
                 int optionNumber;
                 bool isSuitableValue = int.TryParse(Console.ReadLine(), out optionNumber);
@@ -359,7 +425,11 @@ namespace SetCalculator
                             Console.WriteLine("Работа с программой завершена.");
                             break;
                         case 2:
+                            // Переставил повторяющиеся вызовы методов после появления нового множества
                             program.CreateNewStringSet();
+                            program.SortCustomSets();
+                            program.CalculateUniversum();
+                            program.CreateColumns();
                             break;
                         case 3:
                             program.PrintManuallyMadeStringSets();
@@ -378,8 +448,6 @@ namespace SetCalculator
                             }
                             else
                             {
-                                program.SortCustomSets();
-                                program.CalculateUniversum();
                                 program.PrintSetContent(program.universum);
                             }
                             break;
@@ -390,10 +458,66 @@ namespace SetCalculator
                             }
                             else
                             {
-                                program.SortCustomSets();
-                                program.CalculateUniversum();
-                                program.CreateColumns();
                                 program.PrintBelongingTable();
+                            }
+                            break;
+                        case 7:
+                            if (program.manuallyMadeStringSets.Count < 2)
+                            {
+                                Console.WriteLine("Выполнение этого действия подразумевает наличие хотя бы двух созданных множеств!");
+                            }
+                            else
+                            {
+                                program.PrintManuallyMadeStringSets();
+                                string errorNullLink = "Ссылка на объект не была определена!";
+                                StringSet firstSet = program.PrintSetContentFromCustoms();
+                                StringSet secondSet = program.PrintSetContentFromCustoms();
+                                // Сделать проверку менее тупой
+                                if (firstSet == null || secondSet == null)
+                                {
+                                    Console.WriteLine(errorNullLink);
+                                }
+                                else
+                                {
+                                    BelongingColumn firstColumn = program.FindColumnByName(firstSet.Name);
+                                    BelongingColumn secondColumn = program.FindColumnByName(secondSet.Name);
+                                    if (firstColumn == null || secondColumn == null)
+                                    {
+                                        Console.WriteLine(errorNullLink);
+                                    }
+                                    else
+                                    {
+                                        bool canDoOperation = true;
+                                        Console.Write("\nВведите название нового множетсва, которое получится как результат объединения двух: ");
+                                        string newName = Console.ReadLine();
+                                        if (string.IsNullOrEmpty(newName))
+                                        {
+                                            Console.WriteLine("Название должно быть корректным!");
+                                            canDoOperation = false;
+                                        }
+                                        for (int index = 0; index < program.manuallyMadeStringSets.Count; ++index)
+                                        {
+                                            if (newName == program.manuallyMadeStringSets[index].Name)
+                                            {
+                                                Console.WriteLine("Множество с указанным именем уже существует!");
+                                                canDoOperation = false;
+                                            }
+                                        }
+                                        if (!canDoOperation)
+                                        {
+                                            Console.WriteLine("Ошибка при выполнении операции объединения!");
+                                        }
+                                        else
+                                        {
+                                            program.Amalgamation(firstColumn, secondColumn, newName);
+                                            Console.WriteLine("\nУспешно создан результат объединениения двух множеств:");
+                                            Console.WriteLine($"{firstSet.Name} и {secondSet.Name} в {newName}");
+                                            program.SortCustomSets();
+                                            program.CalculateUniversum();
+                                            program.CreateColumns();
+                                        }
+                                    }
+                                }
                             }
                             break;
                         default:
