@@ -111,22 +111,31 @@ namespace SetCalculator
                 return foundation;
             return foundation + "а";
         }
-        void CreateNewStringSet()
+        string RequestNameForNewSet()
         {
-            Console.Write("Введите название нового множетсва: ");
             string newName = Console.ReadLine();
             if (string.IsNullOrEmpty(newName))
             {
                 Console.WriteLine("Название должно быть корректным!");
-                return;
+                return null;
             }
             for (int index = 0; index < manuallyMadeStringSets.Count; ++index)
             {
                 if (newName == manuallyMadeStringSets[index].Name)
                 {
                     Console.WriteLine("Множество с указанным именем уже существует!");
-                    return;
+                    return null;
                 }
+            }
+            return newName;
+        }
+        void CreateNewStringSet()
+        {
+            Console.Write("Введите название нового множетсва: ");
+            string newName = RequestNameForNewSet();
+            if (newName == null)
+            {
+                return;
             }
             Console.Write("Укажите количество элементов, которые вы хотели бы ввести: ");
             int quantity;
@@ -372,6 +381,43 @@ namespace SetCalculator
             }
             return column;
         }
+        BelongingColumn RequestForColumn()
+        {
+            StringSet selectedSet = PrintSetContentFromCustoms();
+            if (selectedSet == null)
+            {
+                Console.WriteLine("Ссылка на объект не найдена!");
+                return null;
+            }
+            return FindColumnByName(selectedSet.Name);
+        }
+        List<BelongingColumn> RequestForBinaryOperation()
+        {
+            if (manuallyMadeStringSets.Count < 2)
+            {
+                Console.WriteLine("Выполнение этого действия подразумевает наличие хотя бы двух созданных множеств!");
+                return null;
+            }
+            PrintManuallyMadeStringSets();
+            BelongingColumn firstColumn = RequestForColumn();
+            if (firstColumn == null)
+            {
+                Console.WriteLine("Ошибка при получении ссылки на первый объект операции!");
+                return null;
+            }
+            BelongingColumn secondColumn = RequestForColumn();
+            if (secondColumn == null)
+            {
+                Console.WriteLine("Ошибка при получении ссылки на второй объект операции!");
+                return null;
+            }
+            List<BelongingColumn> columns = new List<BelongingColumn>
+            {
+                firstColumn,
+                secondColumn
+            };
+            return columns;
+        }
         void Amalgamation(BelongingColumn firstCollumn, BelongingColumn secondColumn, string newStringSetName)
         {
             List<bool> values = new List<bool>();
@@ -462,61 +508,29 @@ namespace SetCalculator
                             }
                             break;
                         case 7:
-                            if (program.manuallyMadeStringSets.Count < 2)
+                            List<BelongingColumn> columns = program.RequestForBinaryOperation();
+                            if (columns == null)
                             {
-                                Console.WriteLine("Выполнение этого действия подразумевает наличие хотя бы двух созданных множеств!");
+                                Console.WriteLine("Ошибка при выполнении операции объединения!");
                             }
                             else
                             {
-                                program.PrintManuallyMadeStringSets();
-                                string errorNullLink = "Ссылка на объект не была определена!";
-                                StringSet firstSet = program.PrintSetContentFromCustoms();
-                                StringSet secondSet = program.PrintSetContentFromCustoms();
-                                // Сделать проверку менее тупой
-                                if (firstSet == null || secondSet == null)
+                                Console.Write("Введите уникальное название для нового множества - результата объединения: ");
+                                string newName = program.RequestNameForNewSet();
+                                if (newName == null)
                                 {
-                                    Console.WriteLine(errorNullLink);
+                                    Console.WriteLine("Ошибка с именем результата операции!");
                                 }
                                 else
                                 {
-                                    BelongingColumn firstColumn = program.FindColumnByName(firstSet.Name);
-                                    BelongingColumn secondColumn = program.FindColumnByName(secondSet.Name);
-                                    if (firstColumn == null || secondColumn == null)
-                                    {
-                                        Console.WriteLine(errorNullLink);
-                                    }
-                                    else
-                                    {
-                                        bool canDoOperation = true;
-                                        Console.Write("\nВведите название нового множетсва, которое получится как результат объединения двух: ");
-                                        string newName = Console.ReadLine();
-                                        if (string.IsNullOrEmpty(newName))
-                                        {
-                                            Console.WriteLine("Название должно быть корректным!");
-                                            canDoOperation = false;
-                                        }
-                                        for (int index = 0; index < program.manuallyMadeStringSets.Count; ++index)
-                                        {
-                                            if (newName == program.manuallyMadeStringSets[index].Name)
-                                            {
-                                                Console.WriteLine("Множество с указанным именем уже существует!");
-                                                canDoOperation = false;
-                                            }
-                                        }
-                                        if (!canDoOperation)
-                                        {
-                                            Console.WriteLine("Ошибка при выполнении операции объединения!");
-                                        }
-                                        else
-                                        {
-                                            program.Amalgamation(firstColumn, secondColumn, newName);
-                                            Console.WriteLine("\nУспешно создан результат объединениения двух множеств:");
-                                            Console.WriteLine($"{firstSet.Name} и {secondSet.Name} в {newName}");
-                                            program.SortCustomSets();
-                                            program.CalculateUniversum();
-                                            program.CreateColumns();
-                                        }
-                                    }
+                                    BelongingColumn firstColumn = columns[0];
+                                    BelongingColumn secondColumn = columns[1];
+                                    program.Amalgamation(firstColumn, secondColumn, newName);
+                                    Console.WriteLine("\nУспешно создан результат объединениения двух множеств:");
+                                    Console.WriteLine($"{firstColumn.Name} и {firstColumn.Name} в {newName}");
+                                    program.SortCustomSets();
+                                    program.CalculateUniversum();
+                                    program.CreateColumns();
                                 }
                             }
                             break;

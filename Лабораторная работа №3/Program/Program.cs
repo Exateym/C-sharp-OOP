@@ -20,7 +20,8 @@ namespace Program
         /// <returns> Шаг между элементами диапазона. </returns>
         static double CalculateStep(double left, double right, int quantity)
         {
-            return (right - left) / quantity;
+            //quantity--;
+            return (right - left) / --quantity;
         }
 
 
@@ -117,16 +118,25 @@ namespace Program
             double right = 9 * left;
 
             double step = CalculateStep(left, right, 10);
-            double epsilon = Math.Pow(10, -4); // Заданная точность вычислений
-            int termsQuantity = 40; // Заданное количество первых членов ряда
+            int digitsAmount = 4; // Количество цифр дробной части
+            double epsilon = Math.Pow(10, -digitsAmount); // Заданная точность вычислений для итерационного цикла
+            int termsQuantity = 100; // Заданное количество первых членов ряда
 
             // Внешний цикл по изменению аргумента
-            for (double x = left; x <= right; x += step)
+            for (double x = left, calculation = 1; x <= right; x += step)
             {
                 double y = Function(x);
                 double resultSN = CalculateTremsSum(x, termsQuantity);
                 double resultSE = CalculateNumericalSeriesSumUsingPrecision(x, epsilon);
-                PrintData(x, resultSN, resultSE, y);
+                Console.Write($"{calculation}. ");
+                PrintData
+                (
+                    Math.Round(x, digitsAmount),
+                    Math.Round(resultSN, digitsAmount),
+                    Math.Round(resultSE, digitsAmount),
+                    Math.Round(y, digitsAmount)
+                );
+                calculation++;
             }
 
             Console.Write("\nНажмите любую клавишу, чтобы закрыть консоль.");

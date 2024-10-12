@@ -1,0 +1,7 @@
+C:\Разное\Учёба\C-sharp-OOP\FileComparer\bin\Debug\FileComparer.exe.config
+C:\Разное\Учёба\C-sharp-OOP\FileComparer\bin\Debug\FileComparer.exe
+C:\Разное\Учёба\C-sharp-OOP\FileComparer\bin\Debug\FileComparer.pdb
+C:\Разное\Учёба\C-sharp-OOP\FileComparer\obj\Debug\FileComparer.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\FileComparer\obj\Debug\FileComparer.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\FileComparer\obj\Debug\FileComparer.exe
+C:\Разное\Учёба\C-sharp-OOP\FileComparer\obj\Debug\FileComparer.pdb
