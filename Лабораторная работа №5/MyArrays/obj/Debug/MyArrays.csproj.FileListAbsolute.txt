@@ -1,0 +1,11 @@
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\bin\Debug\MyArrays.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\bin\Debug\MyArrays.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\bin\Debug\ru\MyArrays.resources.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\obj\Debug\MyArrays.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\obj\Debug\MyArrays.DebugMessages.resources
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\obj\Debug\MyArrays.DebugMessages.ru.resources
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\obj\Debug\MyArrays.csproj.GenerateResource.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\obj\Debug\MyArrays.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\obj\Debug\ru\MyArrays.resources.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\obj\Debug\MyArrays.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\MyArrays\obj\Debug\MyArrays.pdb

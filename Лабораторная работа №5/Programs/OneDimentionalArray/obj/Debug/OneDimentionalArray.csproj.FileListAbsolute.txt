@@ -1,0 +1,11 @@
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\bin\Debug\OneDimentionalArray.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\bin\Debug\OneDimentionalArray.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\bin\Debug\OneDimentionalArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\bin\Debug\MyArrays.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\bin\Debug\MyArrays.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\bin\Debug\ru\MyArrays.resources.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\obj\Debug\OneDimentionalArray.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\obj\Debug\OneDimentionalArray.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\obj\Debug\OneDimen.87F6EE42.Up2Date
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\obj\Debug\OneDimentionalArray.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\OneDimentionalArray\obj\Debug\OneDimentionalArray.pdb
