@@ -132,4 +132,10 @@
   <data name="negativeLength" xml:space="preserve">
     <value>You cannot create an array of negative length!</value>
   </data>
+  <data name="inconsistentColumnLength" xml:space="preserve">
+    <value>You cannot insert a string of a different length into the matrix!</value>
+  </data>
+  <data name="mismatchRows" xml:space="preserve">
+    <value>The number of rows in the transmitted column is greater than in the matrix!</value>
+  </data>
 </root>

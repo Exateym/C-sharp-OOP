@@ -1,0 +1,11 @@
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\bin\Debug\RaggedArray.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\bin\Debug\RaggedArray.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\bin\Debug\RaggedArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\bin\Debug\MyArrays.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\bin\Debug\MyArrays.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\bin\Debug\ru\MyArrays.resources.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\obj\Debug\RaggedArray.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\obj\Debug\RaggedArray.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\obj\Debug\RaggedAr.CA5E4C31.Up2Date
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\obj\Debug\RaggedArray.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\RaggedArray\obj\Debug\RaggedArray.pdb

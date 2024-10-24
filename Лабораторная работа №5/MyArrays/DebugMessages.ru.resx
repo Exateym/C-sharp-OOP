@@ -121,7 +121,7 @@
     <value>В массиве нет ни одного элемента!</value>
   </data>
   <data name="negativeIndexing" xml:space="preserve">
-    <value>Нельзя применять отрицательную индексацию!</value>
+    <value>Нельзя применить отрицательную индексацию!</value>
   </data>
   <data name="outOfRange" xml:space="preserve">
     <value>Нет элемента массива с указанным индексом!</value>
@@ -131,5 +131,11 @@
   </data>
   <data name="negativeLength" xml:space="preserve">
     <value>Нельзя создать массив отрицательной длины!</value>
+  </data>
+  <data name="inconsistentColumnLength" xml:space="preserve">
+    <value>Нельзя вставить в матрицу строку другой длины!</value>
+  </data>
+  <data name="mismatchRows" xml:space="preserve">
+    <value>Количество строк в переданном столбце больше, чем в матрице!</value>
   </data>
 </root>

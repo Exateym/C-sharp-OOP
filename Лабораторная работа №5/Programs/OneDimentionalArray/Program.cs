@@ -30,10 +30,9 @@ namespace OneDimentionalArray
             Console.Clear();
         }
 
-        static MyOneDimensionalArray<int> RandomizeData()
+        static MyOneDimensionalArray<int> CreateRandomData(int arrayLength)
         {
             Random randomizer = new Random();
-            int arrayLength = randomizer.Next(3, 17);
             int[] data = new int[arrayLength];
             for (int index = 0; index < arrayLength; index++)
             {
@@ -53,6 +52,14 @@ namespace OneDimentionalArray
                 data[index] = newNumber;
             }
             return new MyOneDimensionalArray<int>(data);
+        }
+
+        static MyOneDimensionalArray<int> GetRandomArray()
+        {
+            Random randomizer = new Random();
+            int arrayLength = randomizer.Next(3, 17);
+            MyOneDimensionalArray<int> myArray = CreateRandomData(arrayLength);
+            return myArray;
         }
 
         /// <summary> Используется как служебная часть для методов подбора спряжения существительного к соответствующему числительному. </summary>
@@ -178,7 +185,7 @@ namespace OneDimentionalArray
                             PrintArrayDataIntoConsole(numbers);
                             break;
                         case "3":
-                            numbers = RandomizeData();
+                            numbers = GetRandomArray();
                             Console.WriteLine("Сгенерирован новый массив.");
                             PrintArrayDataIntoConsole(numbers);
                             break;

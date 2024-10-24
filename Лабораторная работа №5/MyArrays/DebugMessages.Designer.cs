@@ -70,6 +70,24 @@ namespace MyArrays {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на You cannot insert a string of a different length into the matrix!.
+        /// </summary>
+        internal static string inconsistentColumnLength {
+            get {
+                return ResourceManager.GetString("inconsistentColumnLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The number of rows in the transmitted column is greater than in the matrix!.
+        /// </summary>
+        internal static string mismatchRows {
+            get {
+                return ResourceManager.GetString("mismatchRows", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Cannot use negative indexing!.
         /// </summary>
         internal static string negativeIndexing {

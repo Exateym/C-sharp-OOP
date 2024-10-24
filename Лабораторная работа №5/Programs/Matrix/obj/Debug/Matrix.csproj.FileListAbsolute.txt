@@ -1,0 +1,11 @@
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\bin\Debug\Matrix.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\bin\Debug\Matrix.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\bin\Debug\Matrix.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\bin\Debug\MyArrays.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\bin\Debug\MyArrays.pdb
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\bin\Debug\ru\MyArrays.resources.dll
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\obj\Debug\Matrix.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\obj\Debug\Matrix.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\obj\Debug\Matrix.csproj.Up2Date
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\obj\Debug\Matrix.exe
+C:\Разное\Учёба\C-sharp-OOP\Лабораторная работа №5\Programs\Matrix\obj\Debug\Matrix.pdb
