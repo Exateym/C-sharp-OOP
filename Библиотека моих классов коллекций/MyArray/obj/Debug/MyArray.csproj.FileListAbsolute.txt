@@ -1,0 +1,6 @@
+C:\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MyArray\bin\Debug\MyArray.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MyArray\bin\Debug\MyArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MyArray\obj\Debug\MyArray.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MyArray\obj\Debug\MyArray.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MyArray\obj\Debug\MyArray.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MyArray\obj\Debug\MyArray.pdb

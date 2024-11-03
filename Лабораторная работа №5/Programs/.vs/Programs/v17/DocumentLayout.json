@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{273B0AF9-1131-4866-B8FC-81969659FF42}|RaggedArray\\RaggedArray.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\programs\\raggedarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{273B0AF9-1131-4866-B8FC-81969659FF42}|RaggedArray\\RaggedArray.csproj|solutionrelative:raggedarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{354C0297-9928-40D5-A4AA-F3E100FE6459}|..\\MyArrays\\MyArrays.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\myarrays\\myarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972F0EFE-7BF9-4D54-9262-7AD4DAF9525F}|Matrix\\Matrix.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\programs\\matrix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972F0EFE-7BF9-4D54-9262-7AD4DAF9525F}|Matrix\\Matrix.csproj|solutionrelative:matrix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9B8F256-359F-4A14-BF8F-8F54635421EA}|OneDimentionalArray\\OneDimentionalArray.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\programs\\onedimentionalarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9B8F256-359F-4A14-BF8F-8F54635421EA}|OneDimentionalArray\\OneDimentionalArray.csproj|C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\onedimentionalarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9B8F256-359F-4A14-BF8F-8F54635421EA}|OneDimentionalArray\\OneDimentionalArray.csproj|solutionrelative:onedimentionalarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{354C0297-9928-40D5-A4AA-F3E100FE6459}|..\\MyArrays\\MyArrays.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\myarrays\\myarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{273B0AF9-1131-4866-B8FC-81969659FF42}|RaggedArray\\RaggedArray.csproj|C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\raggedarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273B0AF9-1131-4866-B8FC-81969659FF42}|RaggedArray\\RaggedArray.csproj|solutionrelative:raggedarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972F0EFE-7BF9-4D54-9262-7AD4DAF9525F}|Matrix\\Matrix.csproj|C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\matrix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972F0EFE-7BF9-4D54-9262-7AD4DAF9525F}|Matrix\\Matrix.csproj|solutionrelative:matrix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,55 +33,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MyArrays.cs",
               "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\MyArrays\\MyArrays.cs",
               "RelativeDocumentMoniker": "..\\MyArrays\\MyArrays.cs",
               "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\MyArrays\\MyArrays.cs",
               "RelativeToolTip": "..\\MyArrays\\MyArrays.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGICAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwMkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T18:27:01.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\OneDimentionalArray\\Program.cs",
               "RelativeDocumentMoniker": "OneDimentionalArray\\Program.cs",
               "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\OneDimentionalArray\\Program.cs",
               "RelativeToolTip": "OneDimentionalArray\\Program.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAuwBcBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:44:41.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T14:44:41.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\Matrix\\Program.cs",
               "RelativeDocumentMoniker": "Matrix\\Program.cs",
               "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\Matrix\\Program.cs",
               "RelativeToolTip": "Matrix\\Program.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAiwOgAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAGYBAAAAAAAAAAAqwOgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:44:22.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T14:44:22.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\RaggedArray\\Program.cs",
               "RelativeDocumentMoniker": "RaggedArray\\Program.cs",
               "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u21165\\Programs\\RaggedArray\\Program.cs",
               "RelativeToolTip": "RaggedArray\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwBAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAiwCsBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:53:48.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T17:53:48.115Z"
             }
           ]
         }
