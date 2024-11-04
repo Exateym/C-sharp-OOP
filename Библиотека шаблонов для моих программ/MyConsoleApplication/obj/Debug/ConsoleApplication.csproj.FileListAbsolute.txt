@@ -1,0 +1,6 @@
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\ConsoleApplication\bin\Debug\ConsoleApplication.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\ConsoleApplication\obj\Debug\ConsoleApplication.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

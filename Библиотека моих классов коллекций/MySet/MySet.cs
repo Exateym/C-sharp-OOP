@@ -5,14 +5,38 @@ namespace MyGenericCollections
 {
     namespace MySet
     {
-        public class MySet<T> : MyArray<T>
+        /// <summary>
+        /// Представляет собой параметризованный набор.
+        /// Копирует многую логику со своего базового класса MyArray.
+        /// Имеет те же удобства, что и базовый класс, но реализован для работы с множествами.
+        /// </summary>
+        /// <remarks> Не наследуется. </remarks>
+        public sealed class MySet<T> : MyArray<T>
         {
-            // Скрытие или перезапись унаследованных методов, которые могут быть некорректно применены к множеству.
-            private new void AddElementToEnd(T value) { }
-            private new void InsertElement(int index, T value) { }
+            // Перезапись унаследованных методов, которые могут быть некорректно применены к множеству.
+
+            /// <summary> Работает также как и метод базового класса, но добавляет элемент только если он ещё не существует. </summary>
+            /// <remarks> Не генерирует исключение, когда добавляемый элемент уже существует в множестве. </remarks>
+            public override void AddElementToEnd(T value)
+            {
+                if (GetIndexOfFirstMatch(value) == -1)
+                {
+                    base.AddElementToEnd(value);
+                }
+            }
+
+            /// <summary> Работает также как и метод базового класса, но вставляет элемент только если он ещё не существует. </summary>
+            /// <remarks> Не генерирует исключение, когда вставляемый элемент уже существует в множестве. </remarks>
+            public override void InsertElement(int index, T value)
+            {
+                if (GetIndexOfFirstMatch(value) == -1)
+                {
+                    base.InsertElement(index, value);
+                }
+            }
 
             /// <summary> Метод-индексатор. Доступно только чтение элементов внутреннего хранилища с помощью get. </summary>
-            public new T this[int elementIndex]
+            public override T this[int elementIndex]
             {
                 get
                 {
@@ -34,118 +58,121 @@ namespace MyGenericCollections
 
 
 
-            /// <summary> Добавляет элемент в множество, если он ещё не существует. </summary>
-            /// <remarks> Не генерирует исключение, когда добавляемый элемент уже существует в множестве. </remarks>
-            /// <param name="value"> Значение, которое нужно добавить. </param>
-            public void AddElement(T value)
+            /// <summary> Конструктор без параметров инициализирует объект пустым массивом. </summary>
+            public MySet() => MakeEmpty();
+
+            /// <summary> Конструктор копирования. </summary>
+            public MySet(in MySet<T> otherObject)
             {
-                if (GetIndexOfFirstMatch(value) == -1)
+                if (otherObject == null)
                 {
-                    base.AddElementToEnd(value);
+                    throw new ArgumentNullException("value", "Нельзя инициализировать новый объект по пустой ссылке!");
                 }
+                storage = new T[otherObject.Length];
+                Array.Copy(otherObject.storage, storage, otherObject.Length);
             }
 
             /// <summary> Объединяет текущее множество с другим. </summary>
-            /// <param name="otherSet"> Множество, с которым нужно объединить. </param>
-            public void Union(in MySet<T> otherSet)
+            /// <param name="otherMySet"> Множество, с которым нужно объединить. </param>
+            public void Union(in MySet<T> otherMySet)
             {
-                for (int index = 0; index < otherSet.Length; index++)
+                foreach (var item in otherMySet)
                 {
-                    AddElement(otherSet[index]);
+                    AddElementToEnd(item);
                 }
             }
 
             /// <summary> Пересекает текущее множество с другим. </summary>
-            /// <param name="otherSet"> Множество, с которым нужно пересечь. </param>
-            public void Intersection(in MySet<T> otherSet)
+            /// <param name="otherMySet"> Множество, с которым нужно пересечь. </param>
+            public void Intersection(in MySet<T> otherMySet)
             {
                 MySet<T> resultSet = new MySet<T>();
-                for (int index = 0; index < Length; index++)
+                foreach (var item in this)
                 {
                     // Проверка на наличие элемента в другом множестве.
-                    if (otherSet.GetIndexOfFirstMatch(this[index]) != -1)
+                    if (otherMySet.GetIndexOfFirstMatch(item) != -1)
                     {
                         // Добавление в результирующее множество.
-                        resultSet.AddElement(this[index]);
+                        resultSet.AddElementToEnd(item);
                     }
                 }
                 // Очистка текущего множества и запись в него элементов из результирующего.
                 MakeEmpty();
-                for (int index = 0; index < resultSet.Length; index++)
+                foreach (var item in resultSet)
                 {
-                    AddElement(resultSet[index]);
+                    AddElementToEnd(item);
                 }
             }
 
             /// <summary> Удаляет из текущего множества все элементы, которые содержатся в другом множестве. </summary>
-            /// <param name="otherSet"> Множество, элементы которого нужно удалить из текущего множества. </param>
-            public void Difference(in MySet<T> otherSet)
+            /// <param name="otherMySet"> Множество, элементы которого нужно удалить из текущего множества. </param>
+            public void Difference(in MySet<T> otherMySet)
             {
                 MySet<T> resultSet = new MySet<T>();
 
                 // Происходит добавление элементов, которые есть в текущем множестве, но нет в другом.
-                for (int index = 0; index < Length; index++)
+                foreach (var item in this)
                 {
-                    if (otherSet.GetIndexOfFirstMatch(this[index]) == -1)
+                    if (otherMySet.GetIndexOfFirstMatch(item) == -1)
                     {
-                        resultSet.AddElement(this[index]);
+                        resultSet.AddElementToEnd(item);
                     }
                 }
 
                 // Очистка текущего множества и запись в него элементов из результирующего множества.
                 MakeEmpty();
-                for (int index = 0; index < resultSet.Length; index++)
+                foreach (var item in resultSet)
                 {
-                    AddElement(resultSet[index]);
+                    AddElementToEnd(item);
                 }
             }
 
             /// <summary> Выполняет симметрическую разность текущего множества с другим. </summary>
-            /// <param name="otherSet"> Множество, с которым нужно выполнить симметрическую разность. </param>
-            public void SymmetricDifference(in MySet<T> otherSet)
+            /// <param name="otherMySet"> Множество, с которым нужно выполнить симметрическую разность. </param>
+            public void SymmetricDifference(in MySet<T> otherMySet)
             {
                 MySet<T> resultSet = new MySet<T>();
 
                 // Происходит добавление элементов, которые есть в текущем множестве, но нет в другом.
-                for (int index = 0; index < Length; index++)
+                foreach (var item in this)
                 {
-                    if (otherSet.GetIndexOfFirstMatch(this[index]) == -1)
+                    if (otherMySet.GetIndexOfFirstMatch(item) == -1)
                     {
-                        resultSet.AddElement(this[index]);
+                        resultSet.AddElementToEnd(item);
                     }
                 }
 
                 // Происходит добавление элементов, которые есть в другом множестве, но нет в текущем.
-                for (int index = 0; index < otherSet.Length; index++)
+                foreach (var item in otherMySet)
                 {
-                    if (GetIndexOfFirstMatch(otherSet[index]) == -1)
+                    if (GetIndexOfFirstMatch(item) == -1)
                     {
-                        resultSet.AddElement(otherSet[index]);
+                        resultSet.AddElementToEnd(item);
                     }
                 }
 
                 // Очистка текущего множества и запись в него элементов из результирующего множества.
                 MakeEmpty();
-                for (int index = 0; index < resultSet.Length; index++)
+                foreach (var item in resultSet)
                 {
-                    AddElement(resultSet[index]);
+                    AddElementToEnd(item);
                 }
             }
 
             public override bool Equals(object otherObject)
             {
-                if (otherObject is MySet<T> otherSet)
+                if (otherObject is MySet<T> otherMySet)
                 {
                     // Если длина различается, множества точно не равны.
-                    if (Length != otherSet.Length)
+                    if (Length != otherMySet.Length)
                     {
                         return false;
                     }
 
                     // Проверка, что каждый элемент текущего множества есть в другом множестве.
-                    for (int index = 0; index < Length; index++)
+                    foreach (var item in this)
                     {
-                        if (otherSet.GetIndexOfFirstMatch(this[index]) == -1)
+                        if (otherMySet.GetIndexOfFirstMatch(item) == -1)
                         {
                             return false;
                         }
@@ -159,12 +186,12 @@ namespace MyGenericCollections
             public override int GetHashCode()
             {
                 int hash = 0;
-                for (int index = 0; index < Length; index++)
+                foreach (var item in this)
                 {
                     /* Здесь используется XOR для накопления хэш-кодов каждого элемента.
                     Это поможет получить одинаковый хэш-код для множеств с одинаковыми элементами,
                     даже если порядок различается */
-                    hash ^= this[index]?.GetHashCode() ?? 0;
+                    hash ^= item?.GetHashCode() ?? 0;
                 }
                 return hash;
             }
@@ -228,6 +255,10 @@ namespace MyGenericCollections
             }
         }
 
+        /// <summary>
+        /// Статический класс, реализующий операции над двумя множествами.
+        /// Любой метод возвращает новый объект класса MySet как результат одной из операций.
+        /// </summary>
         public static class MySetOperations
         {
             /// <summary>
@@ -238,8 +269,14 @@ namespace MyGenericCollections
             public static MySet<T> GetUnion<T>(in MySet<T> firstSet, in MySet<T> secondSet)
             {
                 MySet<T> resultSet = new MySet<T>();
-                resultSet.Union(firstSet);
-                resultSet.Union(secondSet);
+                foreach (var item in firstSet)
+                {
+                    resultSet.AddElementToEnd(item);
+                }
+                foreach (var item in secondSet)
+                {
+                    resultSet.AddElementToEnd(item);
+                }
                 return resultSet;
             }
 
@@ -251,11 +288,11 @@ namespace MyGenericCollections
             public static MySet<T> GetIntersection<T>(in MySet<T> firstSet, in MySet<T> secondSet)
             {
                 MySet<T> resultSet = new MySet<T>();
-                for (int index = 0; index < firstSet.Length; index++)
+                foreach (var item in firstSet)
                 {
-                    if (secondSet.GetIndexOfFirstMatch(firstSet[index]) != -1)
+                    if (secondSet.GetIndexOfFirstMatch(item) != -1)
                     {
-                        resultSet.AddElement(firstSet[index]);
+                        resultSet.AddElementToEnd(item);
                     }
                 }
                 return resultSet;
@@ -271,11 +308,11 @@ namespace MyGenericCollections
             public static MySet<T> GetDifference<T>(in MySet<T> firstSet, in MySet<T> secondSet)
             {
                 MySet<T> resultSet = new MySet<T>();
-                for (int index = 0; index < firstSet.Length; index++)
+                foreach (var item in firstSet)
                 {
-                    if (secondSet.GetIndexOfFirstMatch(firstSet[index]) == -1)
+                    if (secondSet.GetIndexOfFirstMatch(item) == -1)
                     {
-                        resultSet.AddElement(firstSet[index]);
+                        resultSet.AddElementToEnd(item);
                     }
                 }
                 return resultSet;
@@ -289,20 +326,25 @@ namespace MyGenericCollections
             public static MySet<T> GetSymmetricDifference<T>(in MySet<T> firstSet, in MySet<T> secondSet)
             {
                 MySet<T> resultSet = new MySet<T>();
-                for (int index = 0; index < firstSet.Length; index++)
+
+                // Добавление элементов из firstSet, которые отсутствуют во втором множестве.
+                foreach (var item in firstSet)
                 {
-                    if (secondSet.GetIndexOfFirstMatch(firstSet[index]) == -1)
+                    if (secondSet.GetIndexOfFirstMatch(item) == -1)
                     {
-                        resultSet.AddElement(firstSet[index]);
+                        resultSet.AddElementToEnd(item);
                     }
                 }
-                for (int index = 0; index < secondSet.Length; index++)
+
+                // Добавление элементов из secondSet, которые отсутствуют в первом множестве.
+                foreach (var item in secondSet)
                 {
-                    if (firstSet.GetIndexOfFirstMatch(firstSet[index]) == -1)
+                    if (firstSet.GetIndexOfFirstMatch(item) == -1)
                     {
-                        resultSet.AddElement(secondSet[index]);
+                        resultSet.AddElementToEnd(item);
                     }
                 }
+
                 return resultSet;
             }
         }

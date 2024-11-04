@@ -1,0 +1,38 @@
+@startuml
+class "MyArray`1"<T> {
+    + Length : int <<get>>
+    + MakeEmpty() : void
+    + MyArray()
+    + MyArray(otherObject:MyArray<T>)
+    + IsEmpty : bool <<get>>
+    + RemoveElement(elementIndex:int) : void
+    + <<virtual>> InsertElement(elementIndex:int, value:T) : void
+    + <<virtual>> AddElementToEnd(value:T) : void
+    + <<override>> Equals(otherObject:object) : bool
+    + GetEnumerator() : IEnumerator<T>
+    + <<override>> GetHashCode() : int
+    + <<override>> ToString() : string
+    + GetIndexOfFirstMatch(value:T) : int
+    + Sort() : void
+}
+class "MySet`1"<T> <<sealed>> {
+    + <<override>> AddElementToEnd(value:T) : void
+    + <<override>> InsertElement(index:int, value:T) : void
+    + MySet()
+    + MySet(otherObject:MySet<T>)
+    + Union(otherMySet:MySet<T>) : void
+    + Intersection(otherMySet:MySet<T>) : void
+    + Difference(otherMySet:MySet<T>) : void
+    + SymmetricDifference(otherMySet:MySet<T>) : void
+    + <<override>> Equals(otherObject:object) : bool
+    + <<override>> GetHashCode() : int
+    + <<override>> ToString() : string
+}
+class MySetOperations <<static>> {
+    + {static} GetUnion(firstSet:MySet<T>, secondSet:MySet<T>) : MySet<T>
+    + {static} GetIntersection(firstSet:MySet<T>, secondSet:MySet<T>) : MySet<T>
+    + {static} GetDifference(firstSet:MySet<T>, secondSet:MySet<T>) : MySet<T>
+    + {static} GetSymmetricDifference(firstSet:MySet<T>, secondSet:MySet<T>) : MySet<T>
+}
+"MyArray`1" "<T>" <|-- "MySet`1"
+@enduml

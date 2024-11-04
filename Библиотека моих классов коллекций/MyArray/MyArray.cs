@@ -1,12 +1,20 @@
 ﻿using System;
+// Подключение интерфейса IEnumerator для Array из пространства имён обобщённых коллекций с целью поддержки функционала foreach. 
+using System.Collections.Generic;
 
 namespace MyGenericCollections
 {
     namespace MyArray
     {
+        /// <summary>
+        /// Представляет собой параметризованный массив.
+        /// Есть методы добавления, вставки и удаления по индексу, которые могут изменять длину массива.
+        /// Для удобства использования есть свойства и метод-индексатор.
+        /// Кроме всего этого, перегружены многие методы базового класса Object и доступны операторы равенства.
+        /// </summary>
         public class MyArray<T>
         {
-            /// <summary> Параметризованный одномерный массив в качестве внутреннего сокрытого хранилища данных. </summary>
+            /// <summary> Параметризованный одномерный массив в качестве внутреннего скрытого хранилища данных. </summary>
             protected T[] storage;
 
             /// <summary> Свойство для получения длины массива. </summary>
@@ -33,7 +41,7 @@ namespace MyGenericCollections
             public bool IsEmpty => Length == 0;
 
             /// <summary> Метод-индексатор. Доступен get и set для элементов внутреннего хранилища данных. </summary>
-            public T this[int elementIndex]
+            public virtual T this[int elementIndex]
             {
                 get
                 {
@@ -100,7 +108,7 @@ namespace MyGenericCollections
             /// <remarks> Новый элемент встаёт на позицию уже существующего, сдвигая его и все последующие элементы вправо. </remarks>
             /// <param name="elementIndex"> Индекс, на который должен встать новый элемент. </param>
             /// <param name="value"> Значение нового элемента. </param>
-            public void InsertElement(int elementIndex, T value)
+            public virtual void InsertElement(int elementIndex, T value)
             {
                 if (Length == int.MaxValue)
                 {
@@ -128,7 +136,7 @@ namespace MyGenericCollections
             /// <summary> Добавляет элемент, увеличивая длину массива. </summary>
             /// <remarks> Новый элемент будет являться новым концом массива. </remarks>
             /// <param name="value"> Значение нового элемента. </param>
-            public void AddElementToEnd(T value)
+            public virtual void AddElementToEnd(T value)
             {
                 if (Length == int.MaxValue)
                 {
@@ -163,7 +171,7 @@ namespace MyGenericCollections
                     }
                     for (int index = 0; index < Length; index++)
                     {
-                        if (!storage[index].Equals(otherMyArray.storage[index]))
+                        if (!this[index].Equals(otherMyArray[index]))
                         {
                             return false;
                         }
@@ -171,6 +179,15 @@ namespace MyGenericCollections
                     return true;
                 }
                 return false;
+            }
+
+            /// <summary> Используется для перебора коллекции с помощью цикла foreach. </summary>
+            public IEnumerator<T> GetEnumerator()
+            {
+                for (int index = 0; index < Length; index++)
+                {
+                    yield return this[index];
+                }
             }
 
             /// <summary> Служит для получения хэш-кода этой коллекции. </summary>
@@ -226,7 +243,7 @@ namespace MyGenericCollections
                 for (int index = 0; index < Length; index++)
                 {
                     // Если элемент равен null, его представление отображается как "null".
-                    result += storage[index]?.ToString() ?? "null";
+                    result += this[index]?.ToString() ?? "null";
                     if (index < Length - 1)
                     {
                         result += ", ";
@@ -246,13 +263,16 @@ namespace MyGenericCollections
             {
                 for (int index = 0; index < Length; index++)
                 {
-                    if (value.Equals(storage[index]))
+                    if (value.Equals(this[index]))
                     {
                         return index;
                     }
                 }
                 return -1;
             }
+
+            /// <summary> Сортирует коллекцию, используя логику метода Sort из класса Array. </summary>
+            public void Sort() => Array.Sort(storage);
         }
     }
 }
