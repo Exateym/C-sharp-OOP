@@ -1,5 +1,7 @@
 ﻿using System;
+using System.IO;
 using System.Text;
+using MyGenericCollections.MyArray;
 
 namespace MyProgramTemplates
 {
@@ -91,20 +93,64 @@ namespace MyProgramTemplates
             public static string RequestForUserInput(string requestMessage, ConsoleColor textColor)
             {
                 PrintMessageIntoConsole(requestMessage, textColor);
-                return Console.ReadLine() ?? string.Empty;
+                string userInput = Console.ReadLine();
+                if (string.IsNullOrEmpty(userInput) || string.IsNullOrWhiteSpace(userInput))
+                {
+                    throw new Exception("Ввод не должен быть пустым или состоять только из символов-разделителей!");
+                }
+                return userInput;
             }
 
             /// <summary> Считывает пользовательский ввод и преобразует его в число int. </summary>
             /// <returns> Удачное преобразование к числу int. </returns>
-            public static int ReadIntNumberFromUserInput()
+            public static int ReadIntNumberFromUserInput(string requestMessage = "Введите число int: ")
             {
                 int number;
-                bool isSuitableValue = int.TryParse(RequestForUserInput("Введите число int: ", ConsoleColor.Yellow), out number);
+                bool isSuitableValue = int.TryParse(RequestForUserInput(requestMessage, ConsoleColor.Yellow), out number);
                 if (!isSuitableValue)
                 {
                     throw new InvalidCastException("Введённые данные не могут быть преобразованы в ожидаемый тип!");
                 }
                 return number;
+            }
+
+            public static MyArray<string> RequestForCreateMyArray()
+            {
+                PrintMessageIntoConsole("Инициализация нового массива MyArray<string>.\n", Console.ForegroundColor);
+                MyArray<string> myArray = new MyArray<string>();
+                int elementsQuantity = ReadIntNumberFromUserInput("Введите количество элементов: ");
+                if (elementsQuantity < 0)
+                {
+                    throw new Exception("Нельзя указать количество элементов отрицательным числом!");
+                }
+                if (elementsQuantity == 0)
+                {
+                    PrintMessageIntoConsole("Успешно создан пустой массив.\n", ConsoleColor.Green);
+                    return myArray;
+                }
+                PrintMessageIntoConsole("Процедура заполнения значений массива.\n", Console.ForegroundColor);
+                for (int elementNumber = 1; elementNumber <= elementsQuantity; elementNumber++)
+                {
+                    string userInput = RequestForUserInput($"Введите элемент номер {elementNumber}: ", ConsoleColor.Yellow);
+                    myArray.AddElementToEnd(userInput);
+                }
+                string wordElement = MatchingWordWithNumeral(myArray.Length, "элемент", "ов", "", "а");
+                PrintMessageIntoConsole($"Успешно создан новый массив, который содержит {myArray.Length} {wordElement}.\n", ConsoleColor.Green);
+                PrintMessageIntoConsole(myArray.ToString() + '\n', Console.ForegroundColor);
+                return myArray;
+            }
+
+            public static void TryToCreateDirectory(string directoryPath)
+            {
+                string fullDirectoryPath = Path.GetFullPath(directoryPath);
+                string rootDirectoryPath = Path.GetDirectoryName(fullDirectoryPath);
+                PrintMessageIntoConsole($"Запрос создания каталога каталога по пути \"{rootDirectoryPath}\".\n", Console.ForegroundColor);
+                if (Directory.Exists(fullDirectoryPath))
+                {
+                    throw new Exception("Указанная директория уже существует!");
+                }
+                Directory.CreateDirectory(fullDirectoryPath);
+                PrintMessageIntoConsole("Новая директория успешно создана.\n", ConsoleColor.Green);
             }
         }
     }

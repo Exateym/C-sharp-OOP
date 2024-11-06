@@ -272,7 +272,28 @@ namespace MyGenericCollections
             }
 
             /// <summary> Сортирует коллекцию, используя логику метода Sort из класса Array. </summary>
-            public void Sort() => Array.Sort(storage);
+            /// <remarks>
+            /// По умолчанию производит сортировку по возрастанию. Если передать
+            /// значение false в качестве параметра, элементы будут отсортированы в обратном порядке.
+            /// </remarks>
+            /// <param name="ascending"> Необязательный параметр. Значение false — сортировка в обратном порядке. </param>
+            public void Sort(bool ascending = true)
+            {
+                Array.Sort(storage);
+                if (!ascending)
+                {
+                    T[] newStorage = new T[Length];
+                    int indexForCurrentStorage = 0;
+                    int indexForNewStorage = Length - 1;
+                    for (int elementNumber = 1; elementNumber <= Length; elementNumber++)
+                    {
+                        newStorage[indexForNewStorage] = storage[indexForCurrentStorage];
+                        indexForNewStorage--;
+                        indexForCurrentStorage++;
+                    }
+                    storage = newStorage;
+                }
+            }
         }
     }
 }

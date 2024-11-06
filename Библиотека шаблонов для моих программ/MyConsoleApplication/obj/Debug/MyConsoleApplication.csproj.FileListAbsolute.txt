@@ -4,3 +4,6 @@ C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов д�
 C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyConsoleApplication\obj\Debug\MyConsoleApplication.csproj.CoreCompileInputs.cache
 C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyConsoleApplication\obj\Debug\ConsoleApplication.dll
 C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyConsoleApplication\bin\Debug\MyArray.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyConsoleApplication\bin\Debug\MyArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyConsoleApplication\obj\Debug\MyConsol.29DB7D0D.Up2Date

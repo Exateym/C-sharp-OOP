@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Text;
 using MyGenericCollections.MyArray;
 using MyGenericCollections.MySet;
@@ -11,18 +12,26 @@ namespace MyProgramTemplates
         {
             public static bool IsTextFileEmpty(string pathToFile)
             {
+                bool result;
                 using (StreamReader streamReader = new StreamReader(pathToFile))
                 {
                     if (streamReader.Peek() == -1)
                     {
-                        return true;
+                        result = true;
                     }
-                    return false;
+                    else
+                    {
+                        result = false;
+                    }
+                    streamReader.Close();
+                    streamReader.Dispose();
                 }
+                return result;
             }
 
             public static Encoding GetEncodingOfTextFile(string pathToFile)
             {
+                Encoding encoding;
                 using (StreamReader streamReader = new StreamReader(pathToFile, Encoding.Default, true))
                 {
                     if (!IsTextFileEmpty(pathToFile))
@@ -31,13 +40,16 @@ namespace MyProgramTemplates
                         переопределить кодировку, с которой работает объект StreamReader. */
                         streamReader.Read();
                     }
-                    return streamReader.CurrentEncoding;
+                    encoding = streamReader.CurrentEncoding;
+                    streamReader.Close();
+                    streamReader.Dispose();
                 }
+                return encoding;
             }
 
             public static MyArray<string> GetLinesFromTextFile(string pathToFile)
             {
-                if (GetEncodingOfTextFile(pathToFile) != Encoding.Unicode)
+                if (!GetEncodingOfTextFile(pathToFile).Equals(Encoding.Unicode))
                 {
                     throw new DecoderFallbackException("Текстовый файл должен быть закодирован форматом UTF-16 с прямым порядком байтов!");
                 }
@@ -52,6 +64,8 @@ namespace MyProgramTemplates
                             myArray.AddElementToEnd(line.Trim());
                         }
                     }
+                    streamReader.Close();
+                    streamReader.Dispose();
                 }
                 return myArray;
             }
@@ -112,6 +126,8 @@ namespace MyProgramTemplates
                             streamWriter.Write('\n');
                         }
                     }
+                    streamWriter.Close();
+                    streamWriter.Dispose();
                 }
             }
         }
