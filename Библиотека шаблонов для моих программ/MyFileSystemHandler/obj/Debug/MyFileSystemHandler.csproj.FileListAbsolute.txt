@@ -1,0 +1,11 @@
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\bin\Debug\MyFileSystemHandler.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\bin\Debug\MyFileSystemHandler.pdb
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\bin\Debug\MyArray.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\bin\Debug\MySet.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\bin\Debug\MyArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\bin\Debug\MySet.pdb
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\obj\Debug\MyFileSystemHandler.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\obj\Debug\MyFileSystemHandler.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\obj\Debug\MyFileSy.45FD45C6.Up2Date
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\obj\Debug\MyFileSystemHandler.dll
+C:\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\obj\Debug\MyFileSystemHandler.pdb

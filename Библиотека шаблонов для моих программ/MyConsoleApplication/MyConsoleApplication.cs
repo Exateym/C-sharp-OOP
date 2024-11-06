@@ -34,7 +34,7 @@ namespace MyProgramTemplates
             /// <param name="textColor"> Цвет текста. Можно передавать значение Console.ForegroundColor для сообщений по умолчанию. </param>
             public static void PrintMessageIntoConsole(string message, ConsoleColor textColor)
             {
-                if (message != string.Empty)
+                if (!string.IsNullOrEmpty(message) && !string.IsNullOrWhiteSpace(message))
                 {
                     ConsoleColor foregroundColor = Console.ForegroundColor;
                     Console.ForegroundColor = textColor;
@@ -66,10 +66,10 @@ namespace MyProgramTemplates
 
             /// <summary> Спрягает существительное с числительным. </summary>
             /// <param name="number"> Число, с которым будет спрягаться существительное. </param>
-            /// <param name="foundation"> Основа слова (всё, кроме окончания). </param>
-            /// <param name="additionOne"> Окончание слова, которое будет использовано, когда число равно 0 или больше 4. </param>
-            /// <param name="additionTwo"> Окончание слова, которое будет использовано, когда число равно 1. </param>
-            /// <param name="additionThree"> Окончание слова, которое будет использовано, когда число равно 2, 3 или 4. </param>
+            /// <param name="foundation"> Неизменяемая часть слова. </param>
+            /// <param name="additionOne"> Продолжение слова, которое будет использовано, когда число равно 0 или больше 4. </param>
+            /// <param name="additionTwo"> Продолжение слова, которое будет использовано, когда число равно 1. </param>
+            /// <param name="additionThree"> Продолжение слова, которое будет использовано, когда число равно 2, 3 или 4. </param>
             public static string MatchingWordWithNumeral(int number, string foundation, string additionOne, string additionTwo, string additionThree)
             {
                 number = SimplificationNumeral(number);
