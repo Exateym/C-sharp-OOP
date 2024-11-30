@@ -1,0 +1,17 @@
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.exe
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.Properties.Resources.resources
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.GenerateResource.cache
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.exe
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.MyForm.resources
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\MyArray.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\MyLogicalFunction.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\MySet.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\MyArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\MyLogicalFunction.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Debug\MySet.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Debug\WindowsF.85209928.Up2Date

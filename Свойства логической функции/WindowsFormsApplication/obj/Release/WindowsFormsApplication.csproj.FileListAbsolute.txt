@@ -1,0 +1,17 @@
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\WindowsFormsApplication.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\WindowsFormsApplication.exe
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\WindowsFormsApplication.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\MyArray.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\MyLogicalFunction.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\MySet.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\MyArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\MyLogicalFunction.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\bin\Release\MySet.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Release\WindowsFormsApplication.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Release\WindowsFormsApplication.MyForm.resources
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Release\WindowsFormsApplication.Properties.Resources.resources
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Release\WindowsFormsApplication.csproj.GenerateResource.cache
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Release\WindowsFormsApplication.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Release\WindowsF.85209928.Up2Date
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Release\WindowsFormsApplication.exe
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\WindowsFormsApplication\obj\Release\WindowsFormsApplication.pdb

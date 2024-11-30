@@ -1,0 +1,16 @@
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\ConsoleProject.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\ConsoleProject.exe
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\ConsoleProject.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\ConsoleApplication.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\MyArray.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\ConsoleApplication.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\MyArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\obj\Debug\ConsoleProject.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\obj\Debug\ConsoleProject.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\obj\Debug\ConsoleP.1CDE03C2.Up2Date
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\obj\Debug\ConsoleProject.exe
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\obj\Debug\ConsoleProject.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\MyLogicalFunction.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\MySet.dll
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\MyLogicalFunction.pdb
+C:\Разное\Учёба\C-sharp-OOP\Свойства логической функции\ConsoleProject\bin\Debug\MySet.pdb

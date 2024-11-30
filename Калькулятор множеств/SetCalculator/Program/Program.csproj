@@ -33,17 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ConsoleApplication">
-      <HintPath>..\..\..\..\..\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyConsoleApplication\bin\Debug\ConsoleApplication.dll</HintPath>
+    <Reference Include="ConsoleApplication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Библиотека шаблонов для моих программ\MyConsoleApplication\bin\Debug\ConsoleApplication.dll</HintPath>
     </Reference>
-    <Reference Include="MyArray">
-      <HintPath>..\..\..\..\..\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MyArray\bin\Debug\MyArray.dll</HintPath>
+    <Reference Include="MyArray, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Библиотека моих классов коллекций\MyArray\bin\Debug\MyArray.dll</HintPath>
     </Reference>
-    <Reference Include="MyFileSystemHandler">
-      <HintPath>..\..\..\..\..\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\bin\Debug\MyFileSystemHandler.dll</HintPath>
+    <Reference Include="MyFileSystemHandler, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Библиотека шаблонов для моих программ\MyFileSystemHandler\bin\Debug\MyFileSystemHandler.dll</HintPath>
     </Reference>
-    <Reference Include="MySet">
-      <HintPath>..\..\..\..\..\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MySet\bin\Debug\MySet.dll</HintPath>
+    <Reference Include="MySet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Библиотека моих классов коллекций\MySet\bin\Debug\MySet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

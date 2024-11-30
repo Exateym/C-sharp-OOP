@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Exateym\\Desktop\\SetCalculator\\",
+  "WorkspaceRootPath": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440 \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\\SetCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98934FF1-E3EF-414E-8CC0-F57395C7EB0E}|Program\\Program.csproj|c:\\users\\exateym\\desktop\\setcalculator\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98934FF1-E3EF-414E-8CC0-F57395C7EB0E}|Program\\Program.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u043A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440 \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\\setcalculator\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98934FF1-E3EF-414E-8CC0-F57395C7EB0E}|Program\\Program.csproj|solutionrelative:program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA560D-D6E5-44CF-AEB2-C20377CE834A}|..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyFileSystemHandler\\MyFileSystemHandler.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\myfilesystemhandler\\myfilesystemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350FDFB7-8494-4C67-9B4C-4711E2B7F238}|..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MySet\\MySet.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\myset\\myset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C279BB-65B4-4B00-8420-D50E9401C0B9}|..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MyArray\\MyArray.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\myarray\\myarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480D01DE-558B-4BD7-84AB-FC1B10705E22}|..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyConsoleApplication\\MyConsoleApplication.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\myconsoleapplication\\myconsoleapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,14 +32,62 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Exateym\\Desktop\\SetCalculator\\Program\\Program.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440 \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\\SetCalculator\\Program\\Program.cs",
               "RelativeDocumentMoniker": "Program\\Program.cs",
-              "ToolTip": "C:\\Users\\Exateym\\Desktop\\SetCalculator\\Program\\Program.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440 \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\\SetCalculator\\Program\\Program.cs",
               "RelativeToolTip": "Program\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQCAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:24:09.314Z",
+              "WhenOpened": "2024-11-06T19:19:37.393Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyArray.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MyArray\\MyArray.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MyArray\\MyArray.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MyArray\\MyArray.cs",
+              "RelativeToolTip": "..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MyArray\\MyArray.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAmwNkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:58:57.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MySet.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MySet\\MySet.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MySet\\MySet.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MySet\\MySet.cs",
+              "RelativeToolTip": "..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u043C\u043E\u0438\u0445 \u043A\u043B\u0430\u0441\u0441\u043E\u0432 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0439\\MySet\\MySet.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:59:01.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyConsoleApplication.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyConsoleApplication\\MyConsoleApplication.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyConsoleApplication\\MyConsoleApplication.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyConsoleApplication\\MyConsoleApplication.cs",
+              "RelativeToolTip": "..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyConsoleApplication\\MyConsoleApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:59:05.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyFileSystemHandler.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyFileSystemHandler\\MyFileSystemHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyFileSystemHandler\\MyFileSystemHandler.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyFileSystemHandler\\MyFileSystemHandler.cs",
+              "RelativeToolTip": "..\\..\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\\MyFileSystemHandler\\MyFileSystemHandler.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:59:08.044Z"
             }
           ]
         }

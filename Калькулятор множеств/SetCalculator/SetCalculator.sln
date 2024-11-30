@@ -5,13 +5,13 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.csproj", "{98934FF1-E3EF-414E-8CC0-F57395C7EB0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArray", "..\..\..\..\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MyArray\MyArray.csproj", "{C8C279BB-65B4-4B00-8420-D50E9401C0B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArray", "..\..\Библиотека моих классов коллекций\MyArray\MyArray.csproj", "{C8C279BB-65B4-4B00-8420-D50E9401C0B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySet", "..\..\..\..\Разное\Учёба\C-sharp-OOP\Библиотека моих классов коллекций\MySet\MySet.csproj", "{350FDFB7-8494-4C67-9B4C-4711E2B7F238}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySet", "..\..\Библиотека моих классов коллекций\MySet\MySet.csproj", "{350FDFB7-8494-4C67-9B4C-4711E2B7F238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsoleApplication", "..\..\..\..\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyConsoleApplication\MyConsoleApplication.csproj", "{480D01DE-558B-4BD7-84AB-FC1B10705E22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsoleApplication", "..\..\Библиотека шаблонов для моих программ\MyConsoleApplication\MyConsoleApplication.csproj", "{480D01DE-558B-4BD7-84AB-FC1B10705E22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFileSystemHandler", "..\..\..\..\Разное\Учёба\C-sharp-OOP\Библиотека шаблонов для моих программ\MyFileSystemHandler\MyFileSystemHandler.csproj", "{9BBA560D-D6E5-44CF-AEB2-C20377CE834A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFileSystemHandler", "..\..\Библиотека шаблонов для моих программ\MyFileSystemHandler\MyFileSystemHandler.csproj", "{9BBA560D-D6E5-44CF-AEB2-C20377CE834A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

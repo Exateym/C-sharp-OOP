@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0421\u0432\u043E\u0439\u0441\u0442\u0432\u0430 \u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0444\u0443\u043D\u043A\u0446\u0438\u0438\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43D0AC83-2A72-4170-BFBB-1520F6193E63}|WindowsFormsApplication\\WindowsFormsApplication.csproj|c:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0443\u0447\u0451\u0431\u0430\\c-sharp-oop\\\u0441\u0432\u043E\u0439\u0441\u0442\u0432\u0430 \u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0444\u0443\u043D\u043A\u0446\u0438\u0438\\windowsformsapplication\\myform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43D0AC83-2A72-4170-BFBB-1520F6193E63}|WindowsFormsApplication\\WindowsFormsApplication.csproj|solutionrelative:windowsformsapplication\\myform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D0AC83-2A72-4170-BFBB-1520F6193E63}|WindowsFormsApplication\\WindowsFormsApplication.csproj|C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0421\u0432\u043E\u0439\u0441\u0442\u0432\u0430 \u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0444\u0443\u043D\u043A\u0446\u0438\u0438\\windowsformsapplication\\myform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D0AC83-2A72-4170-BFBB-1520F6193E63}|WindowsFormsApplication\\WindowsFormsApplication.csproj|solutionrelative:windowsformsapplication\\myform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 836,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0421\u0432\u043E\u0439\u0441\u0442\u0432\u0430 \u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0444\u0443\u043D\u043A\u0446\u0438\u0438\\WindowsFormsApplication\\MyForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication\\MyForm.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0421\u0432\u043E\u0439\u0441\u0442\u0432\u0430 \u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0444\u0443\u043D\u043A\u0446\u0438\u0438\\WindowsFormsApplication\\MyForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApplication\\MyForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:23:31.747Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyForm.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0421\u0432\u043E\u0439\u0441\u0442\u0432\u0430 \u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0444\u0443\u043D\u043A\u0446\u0438\u0438\\WindowsFormsApplication\\MyForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication\\MyForm.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0423\u0447\u0451\u0431\u0430\\C-sharp-OOP\\\u0421\u0432\u043E\u0439\u0441\u0442\u0432\u0430 \u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0444\u0443\u043D\u043A\u0446\u0438\u0438\\WindowsFormsApplication\\MyForm.cs",
+              "RelativeToolTip": "WindowsFormsApplication\\MyForm.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAiwOoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:59:36.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

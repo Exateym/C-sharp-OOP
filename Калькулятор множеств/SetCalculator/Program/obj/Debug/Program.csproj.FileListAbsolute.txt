@@ -14,3 +14,19 @@ C:\Users\Exateym\Desktop\SetCalculator\Program\bin\Debug\ConsoleApplication.dll
 C:\Users\Exateym\Desktop\SetCalculator\Program\bin\Debug\ConsoleApplication.pdb
 C:\Users\Exateym\Desktop\SetCalculator\Program\bin\Debug\MyFileSystemHandler.dll
 C:\Users\Exateym\Desktop\SetCalculator\Program\bin\Debug\MyFileSystemHandler.pdb
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\Program.exe.config
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\Program.exe
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\Program.pdb
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\ConsoleApplication.dll
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\MyArray.dll
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\MyFileSystemHandler.dll
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\MySet.dll
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\ConsoleApplication.pdb
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\MyArray.pdb
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\MyFileSystemHandler.pdb
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\bin\Debug\MySet.pdb
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\obj\Debug\Program.csproj.Up2Date
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\obj\Debug\Program.exe
+C:\Разное\Учёба\C-sharp-OOP\Калькулятор множеств\SetCalculator\Program\obj\Debug\Program.pdb

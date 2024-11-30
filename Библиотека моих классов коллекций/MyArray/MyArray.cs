@@ -271,6 +271,15 @@ namespace MyGenericCollections
                 return -1;
             }
 
+            /// <summary> Проверяет наличие указанного значения в коллекции. </summary>
+            /// <remarks> Упрощает использование метода GetIndexOfFirstMatch. </remarks>
+            /// <param name="value"> Значение для поиска. </param>
+            /// <returns> Значение true, если он найден; иначе false. </returns>
+            public bool Contains(T value)
+            {
+                return GetIndexOfFirstMatch(value) != -1;
+            }
+
             /// <summary> Сортирует коллекцию, используя логику метода Sort из класса Array. </summary>
             /// <remarks>
             /// По умолчанию производит сортировку по возрастанию. Если передать

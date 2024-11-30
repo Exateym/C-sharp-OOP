@@ -12,10 +12,12 @@ namespace MyProgramTemplates
         {
             public static bool IsTextFileEmpty(string pathToFile)
             {
-                bool result;
+                bool result = true;
                 using (StreamReader streamReader = new StreamReader(pathToFile))
                 {
-                    if (streamReader.Peek() == -1)
+                    string line = streamReader.ReadLine();
+                    
+                    if (string.IsNullOrEmpty(line) || string.IsNullOrWhiteSpace(line))
                     {
                         result = true;
                     }
@@ -49,9 +51,12 @@ namespace MyProgramTemplates
 
             public static MyArray<string> GetLinesFromTextFile(string pathToFile)
             {
-                if (!GetEncodingOfTextFile(pathToFile).Equals(Encoding.Unicode))
+                if (IsTextFileEmpty(pathToFile) == false)
                 {
-                    throw new DecoderFallbackException("Текстовый файл должен быть закодирован форматом UTF-16 с прямым порядком байтов!");
+                    if (!GetEncodingOfTextFile(pathToFile).Equals(Encoding.Unicode))
+                    {
+                        throw new DecoderFallbackException("Текстовый файл должен быть закодирован форматом UTF-16 с прямым порядком байтов!");
+                    }
                 }
                 MyArray<string> myArray = new MyArray<string>();
                 using (StreamReader streamReader = new StreamReader(pathToFile, Encoding.Unicode))
